@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(background.jpg);
+    background-position: center;
+    text-align: center;
+}
+
+.btn {
+    background: transparent;
+    position: relative;
+    width: 150px;
+    height: 70px;
+    font-size: large;
+    font-weight: 300;
+    border-radius: 20px 2px;
+    border: 2px solid black;
+    display: inline-block;
+    left: 426px;
+    bottom: -148px;
+}
+
+.btn-1 {
+    position: relative;
+    background: transparent;
+    font-size: large;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-weight: 300;
+    width: 150px;
+    height: 70px;
+    right: 71px;
+}
+
+.btn-2 {
+    position: relative;
+    background: transparent;
+    font-size: large;
+    font-weight: 300;
+    border: 2px solid black;
+    border-radius: 40px;
+    top: -148px;
+    left: 111px;
+    height: 70px;
+    width: 170px;
+
+}
+
+.btn-3 {
+    position: relative;
+    background: transparent;
+    font-size: large;
+    font-weight: 300;
+    width: 170px;
+    height: 70px;
+    border: 2px solid black;
+    left: 254px;
+}
+
+h1 {
+    position: relative;
+    right: 255px;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgba(206, 195, 96, 0.911);
+    box-shadow: 0 0 1.5630rem 0.625rem rgba(206, 195, 96, 0.911);
+    color: rgba(255, 230, 0, 0.911);
+    border-color: rgba(255, 230, 0, 0.911);
+}
+
+.btn-1:hover {
+    background-color: rgb(65, 145, 129);
+    box-shadow: 0 0 1.5630rem 0.625rem rgb(65, 145, 129);
+    border-color: rgb(4, 250, 201);
+    color: rgb(4, 250, 201);
+
+}
+
+.btn-2:hover {
+    background-color: rgb(202, 158, 75);
+    box-shadow: 0 0 1.5630rem 0.625rem rgb(202, 158, 75);
+    color: rgb(250, 166, 10);
+    border-color: rgb(250, 166, 10);
+}
+.btn-3:hover{
+    background-color: rgb(147, 192, 102);
+    box-shadow: 0 0 1.5630rem 0.625rem rgb(147, 192, 102);
+    border-color:  rgb(128, 255, 1);
+    color:  rgb(128, 255, 1);
+}
+h1:hover{
+    background-color: rgb(199, 121, 192);
+    box-shadow: 0 0 1.5630rem 0.625rem rgb(199, 121, 192);
+    color: black;
+}
